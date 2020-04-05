@@ -4,6 +4,7 @@
 	--dark-color-a: #2196f3;
 	--dark-color-b: #42a5f5;
 	--light-color: #bbdefb;
+	--light-n: transparent;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
 }
@@ -17,7 +18,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background: var(--light-color);
+	background: var(--light-n);
 	margin: 20px;
 }
 
