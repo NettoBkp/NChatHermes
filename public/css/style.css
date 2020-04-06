@@ -10,6 +10,18 @@
 	--success-color: #5cb85c;
 	--error-color: #d9534f;	
 }
+.middle {		
+	animation: water 20s infinite;
+}
+@keyframes water {
+	form {
+		background-position: left 0 top 0 ;
+	}
+	to {
+		background-position: left 0 top 0;
+	}
+	
+}
 
 * {	
 	box-sizing: border-box;
