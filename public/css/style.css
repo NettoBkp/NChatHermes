@@ -32,6 +32,18 @@ a {
 	text-decoration: none;
 }
 
+::-webkit-scrollbar{
+	background: #000;
+	width: 13px;
+  }
+  ::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 10px #00000070;  
+  }
+  ::-webkit-scrollbar-thumb{
+	background: linear-gradient(125deg,#000,#1e88e5);  
+  }
+  
+
 .btn {
 	cursor: pointer;
 	padding: 5px 15px;
